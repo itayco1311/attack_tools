@@ -2,7 +2,7 @@
 
 This repository contains a **controlled, educational demonstration** of the Slowloris technique using Python.
 
-> ⚠️ **Ethical & Legal Notice**  
+>  **Ethical & Legal Notice**  
 > This script is intended **only** for:
 > - Local testing environments (e.g., `localhost`)
 > - Personal labs and educational / research purposes  
@@ -10,7 +10,7 @@ This repository contains a **controlled, educational demonstration** of the Slow
 
 ---
 
-## 🧠 What Is This Script?
+##  What Is This Script?
 
 The script shows how sending **incomplete HTTP requests** can keep many connections open to a server at once.  
 By slowly sending headers and small keep-alive lines, it prevents the server from closing the connections, which can help you understand how resource-exhaustion attacks like **Slowloris** work in practice.
@@ -23,7 +23,7 @@ This is a **learning tool** to:
 
 ---
 
-## ⚙️ Technical Overview
+##  Technical Overview
 
 The script uses the following Python standard libraries:
 
@@ -52,7 +52,7 @@ The main function is responsible for:
 
 ---
 
-## 🧾 Command-Line Arguments
+##  Command-Line Arguments
 
 The script accepts the following arguments:
 
@@ -73,7 +73,7 @@ The script accepts the following arguments:
 
 ---
 
-## ▶️ Example Usage (Localhost Only)
+##  Example Usage (Localhost Only)
 
 ```bash
 python ethical_DD0S.py -t localhost -p 8080 -c 3 -i 5
